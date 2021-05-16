@@ -1,0 +1,65 @@
+<html> 
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Anomaly Detection Server</h1>
+        <form action="/detect" method="POST" enctype="multipart/form-data" name="detectorForm" target="result">
+            <div class="container">
+            <table>
+                <tr>
+                    <td>
+                      <div>
+                        <label>Choose an anomaly detection algorithm from this list:
+                            <input list="algorithms" name="myAlgorithm"/></label>
+                            <datalist id="algorithms">
+                              <option value="Simple Anomaly Detection">
+                              <option value="Hybrid Anomaly Detection">
+                            </datalist>
+                      </div>
+                    </td>
+                    <td>Choose Train File<input type="file" name="test_file"></td>
+                    <td>Choose Test File<input type="file" name="train_file"></td>
+                </tr>
+            </table>
+        </div>
+            <br>
+            <input class="bigFont" type="submit">
+        </form>
+        <br>
+        <p align="center"><iframe name="result" width="80%" height="500"></iframe></p>
+    </body>
+</html>
+
+<!-- <html> 
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Anomaly Detection Server</h1>
+        <form action="/detect" method="POST" enctype="multipart/form-data" name="detectorForm" target="result">
+            <div class="container">
+                      <div>
+                        <label>Choose an anomaly detection algorithm from this list:
+                            <input list="algorithms" name="myAlgorithm"/></label>
+                            <datalist id="algorithms">
+                              <option value="Simple Anomaly Detection">
+                              <option value="Hybrid Anomaly Detection">
+                            </datalist>
+                      </div>
+                      <input type="file" name="test_file">
+                    <input type="file" name="train_file">
+        </div>
+            <br>
+            <input class="bigFont" type="submit">
+        </form>
+        <br>
+        <p align="center"><iframe name="result" width="80%" height="500">
+            <div id="showData"></div>
+        </iframe></p>
+    </body>
+</html> -->
