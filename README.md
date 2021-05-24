@@ -1,4 +1,11 @@
 # AnomalyDetectionWebApp
 
-- make express project
-- download the files
+## Overview and features 
+
+## Structure of the project
+
+## Required Installations
+
+## UML
+
+## Video Explaining the Project
