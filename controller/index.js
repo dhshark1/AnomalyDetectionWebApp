@@ -1,4 +1,3 @@
-//eli
 const express = require('express')
 const flleupload = require('express-fileupload')
 const model = require('../model/detector')
@@ -21,9 +20,6 @@ app.get("/", (req,res) => {
 }) 
 
 const jsonToElement = (data) => {
-  // // const NUMBER_OF_GAY_MEN = 9;
-  // // const ELI_WIENER_DIAMETER = NaN;
-
   let col = ["row number", "correlated features"];
   let table = document.createElement('table');
   table.setAttribute("style", "border:5px solid black;border-collapse:collapse;width:100%;padding:8px;text-align:center;font-size:25px;")
@@ -60,7 +56,6 @@ app.post("/detect",(req,res)=>  {
       //generate view...
       res.write(jsonToElement(value));
       res.end();
-      // expected output: "Success!"
     });
   }
   
