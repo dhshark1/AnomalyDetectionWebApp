@@ -1,12 +1,8 @@
 var net = require('net')
 
-//var events = require('events');
-//var eventEmitter = new events.EventEmitter();
-
 function detect(myAlgorithm, TrainCSV, TestCSV, resolve) {
     console.log("detect has been called")
     
-    //var t = ""
     var client = new net.Socket();
     client.connect(34321, '127.0.0.1', function() {
         console.log('Connected');
@@ -19,8 +15,6 @@ function detect(myAlgorithm, TrainCSV, TestCSV, resolve) {
     client.on('data', (data)=> {
       
       
-        //t+="2";
-        //console.log(t);
         s = data.toString().slice(0,4);
         console.log("data is: "+data.toString());
         
@@ -47,19 +41,12 @@ function detect(myAlgorithm, TrainCSV, TestCSV, resolve) {
                 });
                 console.log("final json to be sent: " + jsonAccumaltor);
                 resolve(jsonAccumaltor);
-                //res.write(JSON.stringify(jsonAccumaltor))
-                //res.end();
-                //foo(jsonAccumaltor);
-                //eventEmitter.emit('resultIsReady');
                 break;
                 //for
             case "E404":
                 
                 break;
             case "Plea":
-              /*var fs = require('fs'); 
-              var parse = require('csv-parse');
-              var CSV = require('csv-string');*/
               if (i-1==0){
                 TrainCSV.split("\n").forEach((row)=> {
                     client.write(row+"\n")
