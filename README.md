@@ -23,11 +23,12 @@ In the repository, we ave a few important folders:
 
 1. Install the latest version of NodeJS
 2. Start a new Express project on your computer - https://expressjs.com/en/starter/installing.html for instructions
-3. Download/clone the repository
-4. Insert the View, Controller, and Model folders from this repository into the Express project 
-5. Run the CPP server
-6. Run Node-JS server
-7. Open localhost:8080 on your browser
+3. Download the following modules through your terminal of the project- express-fileupload, JSDOM.
+4. Download/clone the repository
+5. Insert the View, Controller, and Model folders from this repository into the Express project 
+6. Run the CPP server
+7. Run Node-JS server via the controller folder (index.js)
+8. Open localhost:8080 on your browser
 
 ### UML
 
