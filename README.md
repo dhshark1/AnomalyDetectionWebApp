@@ -26,7 +26,7 @@ In the repository, we ave a few important folders:
 3. Download the following modules through your terminal of the project- express-fileupload, JSDOM.
 4. Download/clone the repository
 5. Insert the View, Controller, and Model folders from this repository into the Express project 
-6. Run the CPP server
+6. Run the CPP server (in linux- run ./EvenDerech3_ex5, on a different OS you must create a CLION project and compile our CPP server folder)
 7. Run Node-JS server via the controller folder (index.js)
 8. Open localhost:8080 on your browser
 
