@@ -21,12 +21,13 @@ In the repository, we ave a few important folders:
 
 ### Manual
 
-1. Start a new Express project on your computer - https://expressjs.com/en/starter/installing.html for instructions
-2. Download/clone the repository
-3. Insert the View, Controller, and Model folders from this repository into the Express project 
-4. Run the CPP server
-5. Run Node-JS server
-6. Open localhost:8080 on your browser
+1. Install the latest version of NodeJS
+2. Start a new Express project on your computer - https://expressjs.com/en/starter/installing.html for instructions
+3. Download/clone the repository
+4. Insert the View, Controller, and Model folders from this repository into the Express project 
+5. Run the CPP server
+6. Run Node-JS server
+7. Open localhost:8080 on your browser
 
 ### UML
 
