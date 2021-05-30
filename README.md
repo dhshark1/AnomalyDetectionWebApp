@@ -14,10 +14,12 @@ The View is a simple HTML and CSS page that contains a form, that sends a POST r
 
 In the repository, we ave a few important folders: 
 
-1. anomaly_server-master - this is the c++ server
+1. AnomalyDetectionWebCPPSIDE - this is the c++ server
 2. View - simple HTML and CSS files that display our project on the browser
 3. Controller - a javascript file that return the html index file for a "/" get request and a JSON + HTML table of the anomalies for a "/detect" POST request. communicates with the Model
 4. Model - a javascript file that communicates with the CPP service. sends the controller the anomalies. 
+
+In addition, the executable file CPP_service is
 
 ### Manual
 
@@ -26,7 +28,7 @@ In the repository, we ave a few important folders:
 3. Download the following modules through your terminal of the project- express-fileupload, JSDOM.
 4. Download/clone the repository
 5. Insert the View, Controller, and Model folders from this repository into the Express project 
-6. Run the CPP server (in linux- run ./EvenDerech3_ex5, on a different OS you must create a CLION project and compile our CPP server folder)
+6. Run the CPP server (in linux- run ./CPP_service, on a different OS you must create a CLION project and compile our CPP server folder)
 7. Run Node-JS server via the controller folder (index.js)
 8. Open localhost:8080 on your browser
 
