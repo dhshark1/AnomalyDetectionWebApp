@@ -25,10 +25,10 @@ In addition, the executable file CPP_SERVICE which any user can run on a linux m
 
 1. Install the latest version of NodeJS
 2. Start a new Express project on your computer - https://expressjs.com/en/starter/installing.html for instructions
-3. Download the following modules through your terminal of the project- express-fileupload, JSDOM.
+3. Download the following modules through your terminal of the project- express-fileupload, JSDOM: npm i express-fileupload, npm i jsdom
 4. Download/clone the repository
 5. Insert the View, Controller, and Model folders from this repository into the Express project 
-6. Run the CPP server (in linux- run ./CPP_SERVICE, on a different OS you must create a CLION project and compile our CPP server folder)
+6. Run the CPP server (in linux- run ./CPP_SERVICE or on a different OS you must create a CLION project and compile our CPP server folder)
 7. Run Node-JS server via the controller folder (index.js)
 8. Open localhost:8080 on your browser
 
