@@ -1,0 +1,3 @@
+/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/CMakeFiles/EvenDerech3_ex5.dir

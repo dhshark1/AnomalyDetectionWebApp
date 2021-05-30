@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AnomalyDetectionWebCPPSIDE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvenDerech3_ex5">
+				<Option output="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/EvenDerech3_ex5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/Daniel/opt/miniconda3/bin/../include/c++/v1"/>
+					<Add directory="/Users/Daniel/opt/miniconda3/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 EvenDerech3_ex5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvenDerech3_ex5/fast">
+				<Option output="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/EvenDerech3_ex5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/Daniel/opt/miniconda3/bin/../include/c++/v1"/>
+					<Add directory="/Users/Daniel/opt/miniconda3/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 EvenDerech3_ex5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/CLI.cpp">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/CLI.h">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/HybridAnomalyDetector.cpp">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/HybridAnomalyDetector.h">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/Server.cpp">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/Server.h">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/SimpleAnomalyDetector.cpp">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/SimpleAnomalyDetector.h">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/anomaly_detection_util.cpp">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/anomaly_detection_util.h">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/main.cpp">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/minCircle.cpp">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/minCircle.h">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/timeseries.cpp">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/timeseries.h">
+			<Option target="EvenDerech3_ex5"/>
+		</Unit>
+		<Unit filename="/Users/Daniel/Downloads/AnomalyDetectionWebCPPSIDE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
