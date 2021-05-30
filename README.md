@@ -32,7 +32,7 @@ In the repository, we ave a few important folders:
 
 ### UML
 
-
+https://github.com/dhshark1/AnomalyDetectionWebApp/blob/main/webappuml.pdf
 
 ### Video Explaining the Project
 
