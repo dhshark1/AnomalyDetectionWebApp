@@ -19,7 +19,7 @@ In the repository, we ave a few important folders:
 3. Controller - a javascript file that return the html index file for a "/" get request and a JSON + HTML table of the anomalies for a "/detect" POST request. communicates with the Model
 4. Model - a javascript file that communicates with the CPP service. sends the controller the anomalies. 
 
-In addition, the executable file CPP_service is
+In addition, the executable file CPP_service which any user can run on a linux machine without recompiling the CPP server
 
 ### Manual
 
