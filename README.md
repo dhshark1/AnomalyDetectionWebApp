@@ -19,7 +19,7 @@ In the repository, we ave a few important folders:
 3. Controller - a javascript file that return the html index file for a "/" get request and a JSON + HTML table of the anomalies for a "/detect" POST request. communicates with the Model
 4. Model - a javascript file that communicates with the CPP service. sends the controller the anomalies. 
 
-In addition, the executable file CPP_service which any user can run on a linux machine without recompiling the CPP server
+In addition, the executable file CPP_SERVICE which any user can run on a linux machine without recompiling the CPP server
 
 ### Manual
 
@@ -28,7 +28,7 @@ In addition, the executable file CPP_service which any user can run on a linux m
 3. Download the following modules through your terminal of the project- express-fileupload, JSDOM.
 4. Download/clone the repository
 5. Insert the View, Controller, and Model folders from this repository into the Express project 
-6. Run the CPP server (in linux- run ./CPP_service, on a different OS you must create a CLION project and compile our CPP server folder)
+6. Run the CPP server (in linux- run ./CPP_SERVICE, on a different OS you must create a CLION project and compile our CPP server folder)
 7. Run Node-JS server via the controller folder (index.js)
 8. Open localhost:8080 on your browser
 
