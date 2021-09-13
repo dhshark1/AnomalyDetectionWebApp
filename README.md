@@ -12,7 +12,7 @@ The View is a simple HTML and CSS page that contains a form, that sends a POST r
 
 ### Structure of the project
 
-In the repository, we ave a few important folders: 
+In the repository, we have a few important folders: 
 
 1. AnomalyDetectionWebCPPSIDE - this is the c++ server
 2. View - simple HTML and CSS files that display our project on the browser
