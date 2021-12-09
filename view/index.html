@@ -6,29 +6,93 @@
     </head>
     <body>
         <h1>Anomaly Detection Server</h1>
-        <form action="/detect" method="POST" enctype="multipart/form-data" name="detectorForm" target="result">
+        <form name="detectorForm" target="result" id="myForm">
             <div class="container">
             <table>
                 <tr>
                     <td>
                       <div>
                         <label>Choose an anomaly detection algorithm from this list:
-                            <input list="algorithms" name="myAlgorithm"/></label>
+                            <input list="algorithms" name="myAlgorithm" id="myAlgorithmID"/></label>
                             <datalist id="algorithms">
                               <option value="Simple Anomaly Detection">
                               <option value="Hybrid Anomaly Detection">
                             </datalist>
                       </div>
                     </td>
-                    <td>Choose Train File<input type="file" name="test_file"></td>
-                    <td>Choose Test File<input type="file" name="train_file"></td>
+                    <td id="test_fileID">Choose Train File<input type="file" name="test_file" ></td>
+                    <td id="train_fileID">Choose Test File<input type="file" name="train_file"></td>
                 </tr>
             </table>
         </div>
             <br>
-            <input class="bigFont" type="submit">
+            <input name="submitButton" class="bigFont" type="submit">
         </form>
         <br>
-        <p align="center"><iframe name="result" width="80%" height="500"></iframe></p>
+        <p align="center"><iframe name="result" width="80%" height="500" id="resultID"></iframe></p>
     </body>
+    <script>
+        const jsonToElement = (data) => {
+  let col = ["row number", "correlated features"];
+  let table = document.createElement('table');
+  table.setAttribute("style", "border:5px solid black;border-collapse:collapse;width:100%;padding:8px;text-align:center;font-size:25px;")
+  let tr = table.insertRow(-1);
+  for (let i = 0; i < col.length; i++) {
+    let th = document.createElement("th");
+    th.innerHTML = col[i];
+    th.setAttribute("style", "border:5px solid black;text-align:center;font-size:35px;font-family: 'Oxygen', sans-serif;")
+    tr.appendChild(th);
+  }
+  for(const [key, value] of Object.entries(data)) {
+    tr = table.insertRow(-1);
+    tr.setAttribute("style", "border:5px solid black;border-collapse:collapse;width:100%;padding:8px;text-align:center;font-size:25px;background-color: #f2f2f2;")
+    let tabCell1 = tr.insertCell(-1);
+    tabCell1.setAttribute("style", "border:5px solid black;text-align:center;font-size:25px;font-family: 'Oxygen', sans-serif;")
+    tabCell1.innerHTML = key;
+    let tabCell2 = tr.insertCell(-1);
+    tabCell2.setAttribute("style", "border:5px solid black;text-align:center;font-size:25px;font-family: 'Oxygen', sans-serif;")
+    tabCell2.innerHTML = value;
+  }
+  return table.outerHTML;
+  }
+            function sendData() {
+                const XHR = new XMLHttpRequest();
+
+                // Bind the FormData object and the form element
+                const FD = new FormData( form );
+
+                // Define what happens on successful data submission
+                XHR.addEventListener( "load", function(event) {
+                //alert( event.target.responseText );
+                const obj = JSON.parse(event.target.responseText);
+                var htmlToDisplay = jsonToElement(obj);
+                var t = document.querySelector("iframe").contentWindow.document;
+                t.open();
+                t.write(htmlToDisplay);
+                t.close();
+
+                } );
+
+                // Define what happens in case of error
+                XHR.addEventListener( "error", function( event ) {
+                alert( 'Oops! Something went wrong.' );
+                } );
+
+                // Set up our request
+                XHR.open( "POST", "/detect" );
+
+                // The data sent is what the user provided in the form
+                XHR.send( FD );
+            }
+
+            // Access the form element...
+            const form = document.getElementById( "myForm" );
+
+            // ...and take over its submit event.
+            form.addEventListener( "submit", function ( event ) {
+                event.preventDefault();
+
+                sendData();
+            } );
+    </script>
 </html>
