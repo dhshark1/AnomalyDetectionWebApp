@@ -1,4 +1,4 @@
-// Tom Magdaci 316603604
+
 
 #ifndef MINCIRCLE_H_
 #define MINCIRCLE_H_
