@@ -1,4 +1,4 @@
-//Tom Magdaci 316603604
+
 
 #include "timeseries.h"
 #include <fstream>
